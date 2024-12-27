@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVE Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CVE LIST</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>CVE ID</th>
+                <th>Identifier</th>
+                <th>Published date</th>
+                <th>Modified date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="cve-data-table">
+        </tbody>
+    </table>
+
+    <div class="pagination" id="pager">
+
+    </div>
+    <div id="page-info"></div>
+    <div id="total-entries"></div>
+    <div class="results-per-page">
+        <label for="results-per-page-select">Results Per Page:</label>
+        <select id="results-per-page-select">
+            <option value="10">10</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <div id="cve-details">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

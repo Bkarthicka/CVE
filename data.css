@@ -1,0 +1,59 @@
+/* Adjust CSS selectors based on the ID 'cve-details' */
+#cve-details body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#cve-details h1 {
+    margin-bottom: 20px;
+}
+
+#cve-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#cve-details table th,
+#cve-details table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#cve-details table th {
+    background-color: #f2f2f2;
+}
+
+#cve-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cve-details ul li {
+    margin-bottom: 10px;
+}
+
+#cve-details .description {
+    margin-bottom: 20px;
+}
+
+#cve-details .metrics-table th,
+#cve-details .metrics-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+#cve-details .metrics-table th {
+    background-color: #f2f2f2;
+}
+
+#cve-details .cpe-table th,
+#cve-details .cpe-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+#cve-details .cpe-table th {
+    background-color: #f2f2f2;
+}
